@@ -37,9 +37,54 @@ input::placeholder {
     justify-content: center;
 }
 
-.container-fluid {
+.container {
     width: 100%;
     max-width: 1160px;
     margin: 0 48px;
 }
 
+.cgpa-section {
+    padding: 120px 0;
+}
+
+.cgpa__content {
+    width: 100%;
+    max-width: 768px;
+}
+
+.form {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form__group label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form__group input {
+    padding: .825rem 1.25rem;
+    border: 1px solid #dcb2ff;
+    border-radius: 4px;
+    outline: none;
+}
+
+.button__group button {
+    padding: .75rem 1.25rem;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #9d2eef;
+    background-color: #9d2eef;
+    color: #fff;
+    border-radius: 4px;
+}
