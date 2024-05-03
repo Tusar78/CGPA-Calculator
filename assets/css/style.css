@@ -88,3 +88,25 @@ input::placeholder {
     color: #fff;
     border-radius: 4px;
 }
+
+.results {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: #9d2eef;
+}
+
+.result-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 1px solid #9d2eef;
+    padding: 10px;
+}
